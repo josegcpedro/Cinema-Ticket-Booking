@@ -157,9 +157,9 @@ class Program{
                 Console.WriteLine($"Catégorie: {movie.Category}");
                 Console.WriteLine($"Prix: {movie.Price}€");
                 Console.WriteLine($"Heure du film: {movie.ShowTime}");
-                Console.WriteLine();
-                GuessMenu();
+                Console.WriteLine();  
             }
+            GuessMenu();
         }else{
             Console.WriteLine("Aucune catégorie trouvé!");
             GuessMenu();
