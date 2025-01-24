@@ -95,6 +95,7 @@ class Program{
         }
         AdminMenu();
     }
+    
 }
 
 class Movie{
