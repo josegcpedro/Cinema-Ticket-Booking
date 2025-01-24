@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4U9K1B3NEzgavz7uPOznb2z+Le9iMl0Wx5Tna10Eqfka0R2Vu0ng/I1x5BdyWzQB/gbE0qURIu1z5RSf4wL1GA==",
+  "dgSpecHash": "Tv74JBv2en5oBl0leYKYAcP3RlBRU/eC5iwXKtkDP4Yvnc03MizqPGZE15C/eOONaYFNsYjSesdssxG0h/gxPA==",
   "success": true,
   "projectFilePath": "/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/CinemaTicketBooking.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/josepedro/.nuget/packages/dotenv.net/3.2.1/dotenv.net.3.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
