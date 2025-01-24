@@ -40,7 +40,7 @@ class Program{
                 AdminLogin();
                 break;
             case "2":
-                //GuessMenu();
+                GuessMenu();
                 break;
         }
     }
@@ -115,6 +115,37 @@ class Program{
         }
         AdminMenu();
     }
+
+    static void GuessMenu(){
+        Console.WriteLine("1. Afficher tout les films");
+        Console.WriteLine("2. Afficher les filmes de une catégorie");
+        Console.WriteLine("3. Quitter");
+        string choice = Console.ReadLine();
+        switch(choice){
+            case"1":
+                ShowMoviesGuess();
+                break;
+            case"2":
+                //SortByCategory();
+                break;
+            case"3":
+                LoginMenu();
+                break;
+        }
+    }
+    static void ShowMoviesGuess(){
+        foreach (var movie in movies)
+        {
+            Console.WriteLine($"Nom du film: {movie.Name}");
+            Console.WriteLine($"Description: {movie.Description}");
+            Console.WriteLine($"Catégorie: {movie.Category}");
+            Console.WriteLine($"Prix: {movie.Price}€");
+            Console.WriteLine($"Heure du film: {movie.ShowTime}");
+            Console.WriteLine();
+        }
+        GuessMenu();
+    }
+    
 }
 
 class Movie{
