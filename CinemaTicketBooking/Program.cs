@@ -72,7 +72,7 @@ class Program{
         switch(choice)
         {
             case "1":
-                //AddFilm();
+                AddMovie();
                 break;
             case "2":
                 ShowMovies();
@@ -81,6 +81,26 @@ class Program{
                 LoginMenu();
                 break;
         }
+    }
+
+    static void AddMovie(){
+        Console.WriteLine("Quel est le nom du nouveau film?");
+        string? movieName = Console.ReadLine();
+        Console.WriteLine("Quel est le prix du billet pour ce film?");
+        string? inputPrice = Console.ReadLine();
+        int.TryParse(inputPrice, out int price);
+        Console.WriteLine("Quel est la description du filme");
+        string? movieDescription = Console.ReadLine();
+        Console.WriteLine("Quel est la categorie du film?");
+        string? movieCategory = Console.ReadLine();
+        Console.WriteLine("Quand le filme va sortir? Exemple: 12/10/2025 15:30");
+        string? inputTime = Console.ReadLine();
+        DateTime ScheduleFilm;
+        DateTime.TryParse(inputTime, out ScheduleFilm);
+
+        Movie newMovie = new Movie(movieName,price,movieDescription,movieCategory,ScheduleFilm);
+        movies.Add(newMovie);
+        AdminMenu();
     }
 
     static void ShowMovies(){
@@ -95,7 +115,6 @@ class Program{
         }
         AdminMenu();
     }
-    
 }
 
 class Movie{
