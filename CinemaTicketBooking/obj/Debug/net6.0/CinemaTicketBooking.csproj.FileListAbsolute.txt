@@ -1,0 +1,17 @@
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.csproj.AssemblyReference.cache
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.AssemblyInfoInputs.cache
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.AssemblyInfo.cs
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.csproj.CoreCompileInputs.cache
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/CinemaTicketBooking
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/CinemaTicketBooking.deps.json
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/CinemaTicketBooking.runtimeconfig.json
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/CinemaTicketBooking.dll
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/ref/CinemaTicketBooking.dll
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/CinemaTicketBooking.pdb
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/bin/Debug/net6.0/dotenv.net.dll
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.csproj.CopyComplete
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.dll
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/ref/CinemaTicketBooking.dll
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.pdb
+/Users/josepedro/Desktop/cSharp/CinemaTicketBooking/CinemaTicketBooking/obj/Debug/net6.0/CinemaTicketBooking.genruntimeconfig.cache
