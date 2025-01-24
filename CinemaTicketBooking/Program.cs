@@ -126,7 +126,7 @@ class Program{
                 ShowMoviesGuess();
                 break;
             case"2":
-                //SortByCategory();
+                SortByCategory();
                 break;
             case"3":
                 LoginMenu();
@@ -145,7 +145,26 @@ class Program{
         }
         GuessMenu();
     }
-    
+    static void SortByCategory(){
+        Console.WriteLine("Quel catégorie voulez vous regarde?");
+        string wantedCategory = Console.ReadLine();
+        var filteredCategory = movies.Where(m => m.Category.Equals(wantedCategory, StringComparison.OrdinalIgnoreCase)).ToList();
+
+        if(filteredCategory.Any()){
+            foreach (var movie in filteredCategory){
+                Console.WriteLine($"Nom du film: {movie.Name}");
+                Console.WriteLine($"Description: {movie.Description}");
+                Console.WriteLine($"Catégorie: {movie.Category}");
+                Console.WriteLine($"Prix: {movie.Price}€");
+                Console.WriteLine($"Heure du film: {movie.ShowTime}");
+                Console.WriteLine();
+                GuessMenu();
+            }
+        }else{
+            Console.WriteLine("Aucune catégorie trouvé!");
+            GuessMenu();
+        }
+    }
 }
 
 class Movie{
